@@ -61,12 +61,12 @@ batton {
 /* heder section */
 .hdra {
   background: #ffffff;
-  display: flex;
 }
 
 .container {
-  max-width: 1148px;
-  margin: auto;
+  max-width: 1126px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header-container {
@@ -78,12 +78,11 @@ batton {
 .naviget {
   display: flex;
   align-items: center;
-  flex-grow: 1;
 }
 .naviget-list {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 24px 40px;
 }
 
 .hdra-lg {
@@ -116,12 +115,12 @@ batton {
 
 .addr-list {
   display: flex;
-
-  gap: 40px;
+  margin-left: auto;
+  gap: 24px 40px;
 }
 
 .addr-s-link {
-  width: 100%;
+  width: 154px;
   font-weight: 400;
   font-size: 16px;
   font-style: normal;
@@ -137,8 +136,11 @@ batton {
   color: #404bbf;
 }
 /* ONE SECTION */
+
 .top-block {
-  background: #2e2f42;
+  max-width: 1126px;
+  max-height: 600px;
+  background-color: #2e2f42;
 }
 
 .h-one {
@@ -148,11 +150,14 @@ batton {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  width: 496px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .top-btn {
   font-family: 'Roboto', sans-serif;
-  background: #4d5ae5;
   color: #fff;
   font-weight: 500;
   font-size: 16px;
@@ -160,13 +165,28 @@ batton {
   letter-spacing: 0.04em;
   /* cursor: pointer; global batton */
   text-align: center;
+  min-width: 169px;
+  min-height: 56px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: #4d5ae5;
 }
 .top-btn:hover,
 .top-btn:focus {
-  background: #404bbf;
+  background-color: #404bbf;
 }
 /* TWO SECTION */
-
+.dscr-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
 .dscr-h {
   font-weight: 500;
   font-size: 20px;
