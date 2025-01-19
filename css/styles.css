@@ -207,13 +207,16 @@ img {
   background-color: #404bbf;
 }
 /* TWO SECTION */
+.description {
+  padding: 120px 0 120px;
+}
 .dscr-container {
 }
 .dscr-list {
   display: flex;
   justify-content: space-between;
   gap: 24px;
-  margin: 120px 0;
+  margin: 0;
 
   padding-left: 0;
 }
