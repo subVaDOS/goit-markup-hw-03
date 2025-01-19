@@ -244,6 +244,7 @@ img {
 
 /* THREE SECTION */
 .sctn-team {
+  padding: 120px 0 120px;
 }
 
 .team-container {
@@ -273,6 +274,12 @@ img {
 
 .item-card {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.item-card-name {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .h-three-team {
@@ -282,6 +289,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .item-card-text {
