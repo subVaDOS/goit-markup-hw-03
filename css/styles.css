@@ -112,6 +112,7 @@ img {
   color: #4d5ae5;
   margin-right: 76px;
   padding: 24px 0;
+  display: block;
 }
 
 .text-lg {
@@ -127,6 +128,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0;
+  display: block;
 }
 .naviget-link:hover,
 .naviget-link:focus {
@@ -240,13 +242,12 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
 /* THREE SECTION */
 .sctn-team {
-  padding: 120px 0 120px;
 }
 
 .team-container {
@@ -260,14 +261,13 @@ img {
   color: #2e2f42;
   text-transform: capitalize;
   margin-bottom: 72px;
-  margin-top: 120px;
 }
 .team-list {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 24px;
-  margin: 120px 0;
+  /* margin: 120px 0; */
   padding-left: 0;
 }
 .sctn-team {
@@ -277,6 +277,7 @@ img {
 .item-card {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 
 .item-card-name {
@@ -322,7 +323,7 @@ img {
   color: #2e2f42;
   text-transform: capitalize;
   margin-bottom: 72px;
-  margin-top: 120px;
+  /* margin-top: 120px; */
 }
 
 .portfolio-list {
@@ -333,6 +334,7 @@ img {
   row-gap: 48px;
 }
 .lishka-portfolio {
+  width: calc((100% - 48px) / 3);
 }
 .three-team {
   font-weight: 500;
@@ -348,7 +350,7 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
 }
 
 .item-portfolio-text {
@@ -376,10 +378,13 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 76px;
-  padding: 24px 0;
-  display: inline-block;
-  margin-bottom: 16px;
+  /* margin-right: 76px; */
+  /* padding: 24px 0; */
+  padding-bottom: 16px;
+  /* display: inline-block; */
+  /* margin-bottom: 16px; */
+  max-width: 115px;
+  display: block;
 }
 
 .text-lg-t {
